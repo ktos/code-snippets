@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CC0 License Header</Title>
+      <Shortcut>license-cc0</Shortcut>
+      <Description>
+       Creative Commons CC0 (nearly public domain) license header
+      </Description>
+      <Author>Marcin Badurowicz</Author>
+      <SnippetTypes>       
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>   
+    <Snippet>
+    <Declarations>
+	<Literal>
+      <ID>product</ID>
+      <ToolTip>Product name</ToolTip>
+      <Default>product</Default>
+    </Literal>
+    <Literal>
+      <ID>year</ID>
+      <ToolTip>Copyright year</ToolTip>
+      <Default>2014</Default>
+    </Literal>
+    <Literal>
+      <ID>author</ID>
+      <ToolTip>Author's name</ToolTip>
+      <Default>Marcin Badurowicz</Default>
+    </Literal>
+	<Literal>
+      <ID>email</ID>
+      <ToolTip>Author's e-mail address</ToolTip>
+      <Default>m at badurowicz dot net</Default>
+    </Literal>  
+  </Declarations>
+  <Code Language="CSharp">
+    <![CDATA[#region License
+/*
+ * $product$
+ *
+ * Written in $year$ by $author$ <$email$>
+ *
+ * To the extent possible under law, the author(s) have dedicated
+ * all copyright and related and neighboring rights to this 
+ * software to the public domain worldwide. This software is 
+ * distributed without any warranty. 
+ *
+ * You should have received a copy of the CC0 Public Domain 
+ * Dedication along with this software. If not, see 
+ * <http://creativecommons.org/publicdomain/zero/1.0/>. 
+ */
+#endregion
+]]>
+  </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
