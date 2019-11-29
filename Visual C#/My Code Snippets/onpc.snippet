@@ -22,7 +22,7 @@
         /// Part of <see cref="INotifyPropertyChanged"/> implementation.
         /// </summary>
         /// <param name="name">Name of a changed property</param>
-        protected void OnPropertyChanged(string name)
+        protected void OnPropertyChanged([CallerMemberName]string name)
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(name));
